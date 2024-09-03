@@ -1,0 +1,296 @@
+/* Colors
+ ******************************/
+/* Primary
+ ***************/
+$moderate-violet: #7541c8;
+$very-dark-grayish-blue: #48556a;
+$very-dark-blackish-blue: #19212e;
+$white: #ffffff;
+/* Neutral
+ ***************/
+$light-gray: #cfcfcf;
+$light-grayish-blue: #ecf2f8;
+
+/* Global Variables
+ ******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: $light-grayish-blue;
+
+    picture {
+        display: flex;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/* Body Variables
+ ******************************/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-grid-section {
+    padding: 71px 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    padding: 26px 32px 32px;
+    border-radius: 8px;
+    max-width: 540px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    &__author {
+        display: flex;
+        gap: 17px;
+    }
+
+    &__img {
+        border-radius: 50%;
+    }
+
+    &__name {
+        font-family: 'Barlow Semi Condensed';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    &__status {
+        margin-top: 4px;
+
+        font-family: 'Barlow Semi Condensed';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 11px;
+
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    &__title {
+        margin-top: 18px;
+
+        font-family: 'Barlow Semi Condensed';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    &__subtitle {
+        margin-top: 16px;
+
+        font-family: 'Barlow Semi Condensed';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+
+        mix-blend-mode: normal;
+        opacity: 0.7;
+    }
+
+    &--daniel {
+        background-color: $moderate-violet;
+
+        &>* {
+            z-index: 1;
+        }
+
+        .card {
+            &__bg-icon {
+                position: absolute;
+                top: 0px;
+                right: 24px;
+            }
+
+            &__img {
+                outline: 2px solid #A775F1;
+            }
+
+            &__name,
+            &__status,
+            &__title {
+                color: $white;
+            }
+
+            &__subtitle {
+                margin-top: 40px;
+                color: $light-gray;
+            }
+        }
+
+
+    }
+
+    &--jonathan {
+        background-color: $very-dark-grayish-blue;
+
+        .card {
+
+            &__name,
+            &__status,
+            &__title,
+            &__subtitle {
+                color: $white;
+            }
+        }
+    }
+
+    &--jeanette {
+        background-color: $white;
+
+        .card {
+
+            &__name,
+            &__status,
+            &__title,
+            &__subtitle {
+                color: $very-dark-grayish-blue;
+            }
+        }
+    }
+
+    &--patrick {
+        background-color: $very-dark-blackish-blue;
+
+        .card {
+            &__img {
+                outline: 2px solid $moderate-violet;
+            }
+
+            &__name,
+            &__status,
+            &__subtitle {
+                color: $white;
+            }
+
+            &__title {
+                color: $light-grayish-blue;
+            }
+        }
+    }
+
+    &--kira {
+        background-color: $white;
+
+        .card {
+
+            &__name,
+            &__status,
+            &__title,
+            &__subtitle {
+                color: $very-dark-grayish-blue;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .testimonials-grid-section {
+        padding: 71px 0;
+    }
+
+    .card {
+
+        &--jonathan,
+        &--jeanette {
+            max-width: 327px;
+        }
+
+        &--kira {
+            max-width: 891px;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1110px) {
+    main {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .testimonials-grid-section {
+        padding: 0;
+        display: grid;
+        grid-template-areas: 'daniel daniel jonathan kira'
+                             'jeanette patrick patrick kira';
+        column-gap: 30px;
+        row-gap: 24px;
+    }
+
+    .card {
+        padding: 26px 32px;
+
+        &__subtitle {
+            margin-top: 24px;
+        }
+
+        &--daniel {
+            padding: 26px 32px 32px;
+            grid-area: daniel;
+            max-width: 540px;
+
+            .card {
+                &__quote-bg {
+                    top: 0;
+                    right: 80px;
+                }
+                
+                &__subtitle {
+                    margin-top: 16px;
+                }
+            }
+        }
+
+        &--jonathan {
+            padding: 26px 32px 32px;
+            grid-area: jonathan;
+            max-width: 255px;
+
+            .card {
+                &__subtitle {
+                    margin-top: 16px;
+                }
+            }
+        }
+
+        &--jeanette {
+            grid-area: jeanette;
+            max-width: 255px;
+        }
+
+        &--patrick {
+            grid-area: patrick;
+            max-width: 540px;
+        }
+
+        &--kira {
+            grid-area: kira;
+            max-width: 255px;
+        }
+    }
+}
