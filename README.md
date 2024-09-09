@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/DalaScript/testimonials-grid-section)
-- [Live Site URL](https://dalascript.github.io/testimonials-grid-section/)
+- [Live Site URL](https://DalaScript.github.io/testimonials-grid-section/)
 
 ## My process
 
@@ -41,6 +41,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 - Mobile-first workflow
 - bem - [Block Element Modifier](https://getbem.com/introduction/)
 - scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
@@ -64,7 +65,7 @@ First I want to finish the javascript course I'm taking on freecodecamp, I'm als
 ### Connect with Me
 
 - [Instagram](https://www.instagram.com/DalaScript)
-- [YouTube](https://www.youtube.com/@CodeWithDala)
+- [YouTube](https://www.youtube.com/@DalaScript)
 - [TikTok](https://www.tiktok.com/@CodeWithDala)
 
 ### Coding Profiles
