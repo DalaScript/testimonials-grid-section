@@ -1,75 +1,79 @@
-# Frontend Mentor - Testimonials grid section solution
+# Testimonials Grid Section | Frontend Mentor
+
+**Challenge 10**
 
 This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-  - [Connect with Me](#Connect-with-Me)
-  - [Coding Profiles](#Coding-Profiles)
+## 📚 Table of contents
 
-## Overview
+- [🔎 Overview](#-overview)
+  - [🎯 The challenge](#-the-challenge)
+  - [📸 Screenshot](#-screenshot)
+  - [🔗 Links](#-links)
+  - [🛠️ Built with](#️-built-with)
+- [🧠 My process](#-my-process)
+  - [🔙 Previous Challenge](#-previous-challenge)
+  - [🔜 Next Challenge](#-next-challenge)
+- [👤 About Me](#-about-me)
+  - [🌐 Connect with Me](#-connect-with-me)
+  - [💻 Coding Profiles](#-coding-profiles)
 
-### The challenge
+---
+
+## 🔎 Overview
+
+### 🎯 The challenge
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+  - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### 📸 Screenshot
 
-![](./assets/images/screenshot/screenshot.jpg)
+![Live Preview Screenshot](./assets/images/screenshot/screenshot.jpg)
 
-### Links
+### 🔗 Links
 
-- [Solution URL](https://github.com/DalaScript/testimonials-grid-section)
-- [Live Site URL](https://DalaScript.github.io/testimonials-grid-section/)
+  - [🔴 Live Demo](https://dalascript.github.io/testimonials-grid-section/)
+  - [🗂️ GitHub Repository](https://github.com/DalaScript/testimonials-grid-section)
 
-## My process
+### 🛠️ Built with
 
-### Built with
+  - HTML5
+  - CSS3
+  - Flexbox
+  - Grid
+  - Mobile-first workflow
+  - bem - [Block Element Modifier](https://getbem.com/introduction/)
+  - scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Grid
-- Mobile-first workflow
-- bem - [Block Element Modifier](https://getbem.com/introduction/)
-- scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
+---
 
-### What I learned
+## 🧠 My process
 
-This challenge was pretty simple for me, so nothing new.
+### 🔙 Previous Challenge
 
-### Continued development
+  - Recipe Page | *Challenge 2* → [View Repository](https://github.com/DalaScript/recipe-page)
 
-First I want to finish the javascript course I'm taking on freecodecamp, I'm also going through the learning path on Frontendmentor, and after that I want to focus more on React, Next.js and Node.js.
+### 🔜 Next Challenge
 
-### Useful resources
+  - Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
 
-- [ChatGPT](https://chatgpt.com/) - He is my hero, if I need something fast, if I can't understand something, or if I can't find it on the internet, I always ask him.
-- [W3Schools](https://www.w3schools.com/) - This is my favorite documentation platform I've been using since I started programming, it's the best explained resource.
-- [YouTube](https://www.youtube.com/) - I'm always looking for news and listening to other developers, sharing their experiences so that I can see many different solutions to a problem.
+---
 
-## Author
+## 👤 About Me
 
-### Connect with Me
+### 🌐 Connect with Me
 
-- [Instagram](https://www.instagram.com/DalaScript)
-- [YouTube](https://www.youtube.com/@DalaScript)
-- [TikTok](https://www.tiktok.com/@CodeWithDala)
+  - [Instagram](https://www.instagram.com/DalaScript)
+  - [YouTube](https://www.youtube.com/@DalaScript)
 
-### Coding Profiles
+### 💻 Coding Profiles
 
-- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-- [GitHub](https://github.com/DalaScript)
+  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+  - [GitHub](https://github.com/DalaScript)
+
+*🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*
