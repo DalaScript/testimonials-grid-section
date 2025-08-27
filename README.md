@@ -55,11 +55,11 @@ Users should be able to:
 
 ### 🔙 Previous Challenge
 
-  - Recipe Page | *Challenge 2* → [View Repository](https://github.com/DalaScript/recipe-page)
+  - NFT Preview Card Component | *Challenge 9* → [View Repository](https://github.com/DalaScript/nft-preview-card-component)
 
 ### 🔜 Next Challenge
 
-  - Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
+  - Results Summary Component | *Challenge 11* → [View Repository](https://github.com/DalaScript/results-summary-component)
 
 ---
 
